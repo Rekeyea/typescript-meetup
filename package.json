@@ -1,0 +1,17 @@
+{
+  "name": "typescript-meetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "tsnd --respawn index.ts",
+    "build": "ts-node index.ts"
+  },
+  "author": "rekeyea",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  }
+}
